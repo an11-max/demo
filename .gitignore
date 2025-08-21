@@ -1,0 +1,42 @@
+# IDE và Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+debug.log
+error.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Database backups
+*.sql.bak
+dump.sql
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Cache files
+cache/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHP
+composer.phar
+vendor/
+
+# Test files
+test_*.php
+debug_*.php
