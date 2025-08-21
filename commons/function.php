@@ -2,7 +2,7 @@
 // Thêm dòng này vào đầu file (ngay sau <?php nếu có)
 require_once __DIR__ . '/env.php';
 
-// Luôn hiển thị lỗi PHP ra màn hình để debug
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);

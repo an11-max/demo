@@ -71,8 +71,7 @@ class AdminController {
         require_once dirname(__DIR__) . '/Admin/Views/AdminRegisterForm.php';
     }
     public function login() {
-        // Hiển thị form đăng nhập admin hoặc xử lý đăng nhập
-        // Nếu đã đăng nhập admin thì chuyển hướng về dashboard
+        
         if (isset($_SESSION['admin'])) {
             header('Location: /mvc-oop-basic-duanmau/Admin/index.php');
             exit;
